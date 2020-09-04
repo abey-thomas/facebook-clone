@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 15px 20px;
     position: sticky;
+    top: 0;
     background-color: white;
     z-index: 100;
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
@@ -24,6 +25,7 @@
     padding: 10px;
     margin-left: 10px;
     border-radius: 999px;
+    height: 20px;
 }
 
 .header__input > input {
@@ -32,10 +34,19 @@
     outline-width: 0;
 }
 
-.header__center {
+.header__center, .header__center__dektop, .header__center__mobile {
     display: flex;
     flex: 1;
     justify-content: center;
+    margin: 0 5px;
+}
+
+.header__center__mobile {
+    justify-content: start;
+}
+
+.header__center__mobile > .header__option > .MuiSvgIcon-root{
+    font-size: xx-large;
 }
 
 .header__option {
@@ -81,4 +92,36 @@
 
 .header__right {
     display: flex;
+}
+
+
+@media only screen and (max-width: 840px) {
+    .header__center__dektop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    .header__center__mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .header__input{
+        height: 40px;
+        width: 40px;
+        padding: 2px;
+        color: gray;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__input > input {
+        display: none;
+    }
+    .header__info {
+        display: none;
+    }
 }

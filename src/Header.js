@@ -11,10 +11,11 @@ import AddIcon from '@material-ui/icons/Add'
 import ForumIcon from '@material-ui/icons/Forum'
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import MenuIcon from '@material-ui/icons/Menu'
 import { useStateValue } from './StateProvider'
 
 function Header() {
-  const [{user}, dispatch] = useStateValue();
+  const [{user}] = useStateValue();
 
     return (
         <div className='header'>
@@ -26,21 +27,29 @@ function Header() {
                 <input type="text" placeholder="Search Facebook"/>
             </div>
             <div className="header__center">
-                <div className="header__option header__option--active">
-                    <HomeIcon fontSize="large"/>
+                <div className="header__center__dektop">
+                    <div className="header__option header__option--active">
+                        <HomeIcon fontSize="large"/>
+                    </div>
+                    <div className="header__option">
+                        <FlagIcon fontSize="large"/>
+                    </div>
+                    <div className="header__option">
+                        <SubscriptionsOutlinedIcon fontSize="large"/>
+                    </div>
+                    <div className="header__option">
+                        <StorefrontIcon fontSize="large"/>
+                    </div>
+                    <div className="header__option">
+                        <SupervisedUserCircleIcon fontSize="large"/>
+                    </div>
                 </div>
-                <div className="header__option">
-                    <FlagIcon fontSize="large"/>
+                <div className="header__center__mobile">
+                    <div className="header__option">
+                            <MenuIcon fontSize="large"/>
+                    </div>
                 </div>
-                <div className="header__option">
-                    <SubscriptionsOutlinedIcon fontSize="large"/>
-                </div>
-                <div className="header__option">
-                    <StorefrontIcon fontSize="large"/>
-                </div>
-                <div className="header__option">
-                    <SupervisedUserCircleIcon fontSize="large"/>
-                </div>
+
             </div>
             <div className="header__right">
                 <div className="header__info">
