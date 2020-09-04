@@ -9,7 +9,6 @@ function StoryReel() {
             <Story image="https://mk0laterblogouwugirk.kinstacdn.com/wp-content/uploads/2019/01/How-Often-to-Post-to-Facebook-Stories.png" profileSrc="https://avatars.dicebear.com/api/male/john.svg?mood[]=happy" title = "Abey Thomas" />
             <Story image="https://mk0laterblogouwugirk.kinstacdn.com/wp-content/uploads/2019/01/facebook-stories-content.png" profileSrc="https://avatars.dicebear.com/api/female/john.svg?mood[]=happy" title = "Abey Thomas" />
             <Story image="https://mk0laterblogouwugirk.kinstacdn.com/wp-content/uploads/2019/01/use-Facebook-Stories-to-share-fun-and-interactive-content.png" profileSrc="https://avatars.dicebear.com/api/male/alex.svg?mood[]=happy" title = "Abey Thomas" />
-            <Story image="https://mk0laterblogouwugirk.kinstacdn.com/wp-content/uploads/2019/01/magic-wand-icon-facebook-stories.png" profileSrc="https://avatars.dicebear.com/api/male/abey.svg?mood[]=happy" title = "Abey Thomas" />
             <Story image="https://mk0laterblogouwugirk.kinstacdn.com/wp-content/uploads/2019/01/Facebook-Stories-tag-users.png" profileSrc="https://avatars.dicebear.com/api/female/sonu.svg?mood[]=happy" title = "Sonu Mathew" />
         </div>
     )
