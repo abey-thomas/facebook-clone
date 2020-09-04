@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import FlipMove from 'react-flip-move'
 import './Feed.css'
-import StoryReel from './StoryReel'
-import MessageSender from './MessageSender'
-import Post from './Post'
-import db from './firebase'
+import StoryReel from '../../Components/StoryReel'
+import MessageSender from '../../Components/MessageSender'
+import Post from '../../Components/Post'
+import db from '../../firebase'
 function Feed() {
     const [posts, setPosts] = useState([])
 

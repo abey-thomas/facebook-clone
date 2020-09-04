@@ -12,7 +12,7 @@ import ForumIcon from '@material-ui/icons/Forum'
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import MenuIcon from '@material-ui/icons/Menu'
-import { useStateValue } from './StateProvider'
+import { useStateValue } from '../../StateProvider'
 
 function Header() {
   const [{user}] = useStateValue();
