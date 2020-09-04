@@ -13,7 +13,7 @@ const dummyUser = {
 function Login() {
     const [state, dispatch] = useStateValue();
 
-    const signIn = (dummy=false) => {
+    const signIn = (e, dummy=null) => {
         if(dummy){
             dispatch({
                 type: actionTypes.SET_USER, 
@@ -43,7 +43,7 @@ function Login() {
                 <Button type="submit" onClick={signIn}>
                     Sign In
                 </Button>
-                <Button type="submit" onClick={()=>signIn(true)}>
+                <Button type="submit" onClick={(e)=>signIn(e, true)}>
                     Access without signin
                 </Button>
             </div>

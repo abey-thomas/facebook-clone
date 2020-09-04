@@ -1,9 +1,5 @@
 export const initialState = {
-    user: {
-        displayName: "Abey Thomas",
-        email: "abeycodes@gmail.com",
-        photoURL: "https://lh5.googleusercontent.com/-7o7wsKep4qg/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclxJphZJ-TnF-RCNDqSKjmHQQPzJw/photo.jpg",
-    },
+    user: null,
 };
 
 export const actionTypes = {

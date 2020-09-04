@@ -17,6 +17,10 @@
     color: #2e81f4;
 }
 
+.login__buttons > button:nth-child(2) {
+    background-color: #4CAF50;
+  }
+
 .login > div > img {
     object-fit: contain;
     height: 150px;
